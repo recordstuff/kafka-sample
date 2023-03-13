@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "e563d674-a6b5-4678-96f4-c61023f66e3c",
+		"name": "Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26311699"
+	},
+	"item": [
+		{
+			"name": "Producer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Chubby Checker: lets do the twist\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:60760/Producer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "60760",
+					"path": [
+						"Producer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
